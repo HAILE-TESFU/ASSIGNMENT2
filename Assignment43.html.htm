@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>JOB APPLYING</title>
+        <script>   
+        function FullName(){
+            let firstname=document.getElementById("nameInputBox1").value;
+            let  lastname=document.getElementById("nameInputBox2").value;
+            let fullname= firstname+" "+lastname;
+
+            document.getElementById("outPutdiv").innerHTML=fullname;
+        }
+        </script>
+    </head>
+    <body>
+        <h1> JOB APPLYING </h1> <br>
+        First Name:
+        <input type="text" id="nameInputBox1">
+        Last Name:
+        <input type="text" id="nameInputBox2">
+        <button type="button" onclick="FullName()">verse</button>
+        <div id="outPutdiv"></div>
+        
+    </body>       
+</html>

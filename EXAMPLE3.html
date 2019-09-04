@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>APPLIED SCRIPTURE</title>
+        <script>
+            /*
+            defining table.
+            input: no user input.
+            processing none.
+            Output the message " water is delicious".
+            */
+        function ApplyScripture(){
+            let name=document.getElementById("nameInputBox").value;
+            let Scripture=("My name is, "+ name + ".  Foot ball is my favourite sport."+" goodly parents, there fore, I was thought somewhat "+" in all the learning of my father");
+
+            document.getElementById("outPutdiv").innerHTML=Scripture;
+
+        }
+        </script>
+    </head>
+    <body>
+        Please enter your name:
+        <input type="text" id="nameInputBox">
+        <button type="button" onclick="ApplyScripture()">verse</button>
+        <div id="outPutdiv"></div>
+    </body>       
+</html>
